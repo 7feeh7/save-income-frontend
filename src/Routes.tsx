@@ -3,6 +3,7 @@ import Login from "./pages/Login"
 import Register from "./pages/Register"
 import Income from "./pages/Income"
 import Expense from "./pages/Expense"
+import Dashboard from "./pages/Dashboard"
 
 function Router() {
     return(
@@ -13,6 +14,7 @@ function Router() {
                 <Route index path={"register"} element={<Register />} />
                 <Route index path={"income"} element={<Income />} />
                 <Route index path={"expense"} element={<Expense />} />
+                <Route index path={"dashboard"} element={<Dashboard />} />
             </Routes>
         </BrowserRouter>
     )
